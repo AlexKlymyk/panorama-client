@@ -15,7 +15,7 @@ function Header({ setIsSidebarOpen }: { setIsSidebarOpen: (isOpen: boolean) => v
         </div>
       </a>
       <div className="header__navigation">
-        <Navigation />
+        <Navigation onItemClick={() => {}} />
       </div>
       <div className="header__language-switcher">
         <LanguageSwitcher />
