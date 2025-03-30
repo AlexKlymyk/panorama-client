@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "home": "Início",
+    "menu": "Menu",
+    "contacts": "Contactos"
+  },
+  "main-screen": {
+    "description": "Comida Ucraniana Autêntica em Lisboa",
+    "button": "Reservar uma mesa"
+  },
+  "contacts": {
+    "title": "Visite-nos",
+    "address": "Morada",
+    "phone": "Telefone",
+    "openingHours": "Horário de funcionamento",
+    "social": "Redes sociais",
+    "tuesday": "Ter",
+    "friday": "Sex",
+    "saturday": "Sáb",
+    "sunday": "Dom"
+  },
+  "menu": {
+    "title": "Menu",
+    "new": "Novo",
+    "food": "Comida",
+    "drinks": "Bebidas"
+  }
+}

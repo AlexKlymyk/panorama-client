@@ -1,0 +1,73 @@
+@import '../../assets/styles/variables';
+
+.language-switcher {
+    position: relative;
+    text-transform: uppercase;
+    color: $light-color;
+    font-weight: 500;
+
+    &:hover {
+      color: $dark-color;
+
+        .language-switcher {
+            &__button {
+                background: $light-color;
+                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            &__list {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    max-width: 48px;
+    min-width: 48px;
+    transition: 0.2s;
+  }
+
+  &__list {
+    background: $light-color;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  &__list-item {
+    cursor: pointer;
+    position: relative;
+    
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
