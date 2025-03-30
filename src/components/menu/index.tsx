@@ -41,7 +41,7 @@ interface MenuCategory {
 }
 
 function Menu() {
-  const serverUrl = 'http://localhost:1337'
+  const serverUrl = 'https://generous-prosperity-43b4640097.strapiapp.com/'
   const { t, i18n } = useTranslation()
   const locale = i18n.language
   const [menu, setMenu] = useState<MenuData>({})
